@@ -1,0 +1,94 @@
+.chatBox {
+  margin-top: 2%;
+  overflow-y: auto;
+  background-image: url(../../images/Desktop.png);
+  background-size: cover;
+  border: transparent 1px rgb(14, 36, 54);
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  height: 500px;
+}
+
+.messageBox {
+  background: #f3f3f3;
+  border-radius: 20px;
+  padding-right: 45px;
+  padding-left: 15px;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.messageText {
+  width: 100%;
+  letter-spacing: 0;
+  float: left;
+  font-size: 1.1em;
+  margin-bottom: 0;
+  word-wrap: break-word;
+}
+
+.messageText img {
+  vertical-align: middle;
+}
+
+.messageContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+}
+
+.sentText {
+  display: flex;
+  margin-bottom: 0;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 0.8rem;
+  color: #828282;
+}
+
+.pl-10 {
+  padding-left: 5px;
+}
+
+.time {
+  display: flex;
+  margin-bottom: 0;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 0.8rem;
+  color: black;
+  padding-left: 0;
+}
+
+.justifyStart {
+  justify-content: flex-start;
+}
+
+.justifyEnd {
+  justify-content: flex-end;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorDark {
+  color: #353535;
+}
+
+.backgroundBlue {
+  background: #2979ff;
+}
+
+.backgroundLight {
+  background: #f3f3f3;
+}
+
+@media only screen and (max-width: 600px) {
+  .chatBox {
+    height: 400px;
+  }
+}
